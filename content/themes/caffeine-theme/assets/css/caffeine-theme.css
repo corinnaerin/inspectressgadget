@@ -342,7 +342,7 @@ a {
 }
 
 a:hover {
-    color: #56817A
+    color: #574626
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -527,7 +527,6 @@ main > .content > footer {
     height: 100%;
     width: 100%;
     box-shadow: inset 0 0 100px rgba(0, 0, 0, .4);
-    background-color: rgba(0, 0, 0, .5)
 }
 
 .copyright {
@@ -541,7 +540,7 @@ main > .content > footer {
 }
 
 .copyright a:hover {
-    color: #56817A
+    color: #574626
 }
 
 .divider {
@@ -3192,8 +3191,8 @@ hr {
 .btn {
     padding: 10px 20px;
     font-size: 14px;
-    color: #56817A;
-    border: 1px solid #56817A;
+    color: #574626;
+    border: 1px solid #574626;
     border-radius: 20px
 }
 
@@ -3267,11 +3266,11 @@ ul.share-buttons li {
 }
 
 ul.share-buttons li a {
-    color: rgba(86, 129, 122, .7)
+    color: rgba(200,145,43,.7);
 }
 
 ul.share-buttons li a:hover {
-    color: #56817a
+    color: #574626
 }
 
 ul.share-buttons li i {
@@ -3291,7 +3290,7 @@ ul.share-buttons li i {
     padding: 6px 8px 6px 9px;
     position: relative;
     display: block;
-    color: #F6F4E9;
+    color: #C8912B;
     border-radius: 20px
 }
 
@@ -3301,7 +3300,7 @@ ul.share-buttons li i {
 
 .social.item a:hover {
     opacity: 1;
-    color: #56817A
+    color: #574626
 }
 
 .social.item a .label {
@@ -3318,27 +3317,28 @@ ul.share-buttons li i {
     font-size: 8px;
     color: #f8f8f8;
     border-radius: 4px;
-    background-color: rgba(86, 129, 122, .7)
+    background-color: rgba(200,145,43,.7)
 }
 
 .tags a:hover {
-    background-color: #56817a
+    background-color: #574626
 }
 
 .back-button {
     font-size: 20px;
     padding: 20px;
-    background: #56817A;
+    background: #574626;
     position: absolute;
     border-radius: 50%;
     margin-top: -40px;
     margin-left: 20px;
     z-index: 10;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    border: 2px solid #C8910B
 }
 
 .back-button i {
-    color: #fff
+    color: #C8910B
 }
 
 :focus {
@@ -3697,7 +3697,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 }
 
 .blog-header h1:hover {
-    color: #7ca8a0
+    color: #C8912B
 }
 
 .profile {
@@ -3718,13 +3718,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 
 .profile a h3 {
     margin: 8px 0 24px;
-    color: #F6F4E9;
+    color: #C8912B;
     font-size: 18px
 }
 
 .profile a img {
     width: 112px;
-    border: 2px solid #000
+    border: 2px solid #C8912B
 }
 
 .call-to-action-container {
@@ -3735,14 +3735,14 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     display: inline-block;
     margin: 0 5px;
     border-radius: 20px;
-    background: #56817A;
-    color: #F6F4E9;
-    border: 1px solid #F6F4E9
+    background: #574626;
+    color: #C8912B;
+    border: 1px solid #C8912B
 }
 
 .call-to-action-container .navigation .links li:hover {
-    border: 1px solid #56817A;
-    background: #F6F4E9
+    border: 1px solid #574626;
+    background: #C8912B
 }
 
 .call-to-action-container .navigation .links li a {
@@ -3750,7 +3750,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     font-size: 14px;
     position: relative;
     display: block;
-    color: #F6F4E9;
+    color: #C8912B;
     border-radius: 20px;
     text-shadow: none;
     font-weight: 700
@@ -3762,15 +3762,15 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 
 .call-to-action-container .navigation .links li a:hover {
     opacity: 1;
-    color: #56817A
+    color: #574626
 }
 
 .call-to-action-container .navigation .links li:first-child {
-    border: 1px solid #F6F4E9
+    border: 1px solid #C8912B
 }
 
 .call-to-action-container .navigation .links li:first-child:hover {
-    border: 1px solid #56817A
+    border: 1px solid #574626
 }
 
 .navigation .links {
@@ -3801,7 +3801,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 }
 
 .navigation .links li a:hover {
-    color: #7ca8a0
+    color: #C8912B
 }
 
 .comments {
@@ -3828,9 +3828,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .nav-header a i {
     position: relative;
     font-size: 20px;
-    color: #F6F4E9;
-    background: #56817A;
-    border: 2px solid #F6F4E9;
+    color: #C8912B;
+    background: #574626;
+    border: 2px solid #C8912B;
     border-radius: 50%;
     padding: 12px
 }
@@ -3856,7 +3856,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 }
 
 .nav-header a img.avatar, .page .profile-image img {
-    border: 2px solid #56817A
+    border: 2px solid #574626
 }
 
 .nav-header.mobile {
@@ -3885,14 +3885,14 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 }
 
 .tags-overlay .tags-container h2 {
-    color: #F6F4E9
+    color: #C8912B
 }
 
 .tags-overlay .tags-container .tags a {
     padding: 8px 14px;
     margin: 0 3px;
     font-size: 12px;
-    background-color: rgba(133, 113, 95, .7)
+    background-color: rgba(200,145,43,.7)
 }
 
 .tags-overlay .tags-container .tags a:hover {
@@ -3914,7 +3914,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .page .tag-header .tags a {
     padding: 8px 14px;
     font-size: 12px;
-    background-color: #56817A
+    background-color: #574626
 }
 
 .page .profile-image {
@@ -4070,7 +4070,7 @@ body.page-browser-compatibility .error-body {
 }
 
 .posts > li > a > h2:hover {
-    color: #56817A
+    color: #574626
 }
 
 .posts > li > a > h2:first-child {
@@ -4204,17 +4204,17 @@ body.page-browser-compatibility .error-body {
     display: block;
     padding: 8px;
     text-decoration: none;
-    border: 1px solid #F6F4E9;
+    border: 1px solid #C8912B;
     border-radius: 5px;
     margin: 20px 10%
 }
 
 .result > h2, .result > h4 {
-    color: #F6F4E9
+    color: #C8912B
 }
 
 .result:hover {
-    background: #56817A;
+    background: #574626;
     -webkit-transition: .5s;
     transition: .5s
 }
@@ -4222,7 +4222,7 @@ body.page-browser-compatibility .error-body {
 .result:hover > h2, .result:hover > h4 {
     -webkit-transition: .5s;
     transition: .5s;
-    color: #F6F4E9
+    color: #C8912B
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4254,7 +4254,7 @@ body.page-browser-compatibility .error-body {
     }
 
     .cover.expanded .nav-header.mobile > a > i {
-        color: #F6F4E9
+        color: #C8912B
     }
 
     .profile {
