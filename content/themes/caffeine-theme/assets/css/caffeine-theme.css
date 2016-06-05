@@ -4758,3 +4758,33 @@ pre[class*=language-] {
 .token.entity {
     cursor: help
 }
+
+.post-image-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.post-image-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 1.5em 1em;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.post-image-container h1 {
+    margin: 0;
+}
+
+.post-image-container > div img {
+    max-width: 100%;
+}
