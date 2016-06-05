@@ -3951,9 +3951,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .error-body h1, .error-body h2 {
     color: #f8f8f8;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
-    background-color: #574626;
-    border-radius: 5px;
-    padding: 10px;
 }
 
 .error-body a {
@@ -3997,16 +3994,18 @@ body.page-browser-compatibility {
     background: url(/assets/img/backgrounds/browser-compatibility.jpg) center/cover no-repeat
 }
 
+.error-body {
+    max-width: 550px;
+    margin: 150px auto 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .4)
+}
+
 body.page-browser-compatibility .error-body {
     text-align: left;
     margin: 100px 20px 20px;
     padding: 20px;
     background-color: rgba(0, 0, 0, .2)
-}
-
-.error-body {
-    max-width: 550px;
-    margin: 150px auto 20px
 }
 
 .error-body h1 {
