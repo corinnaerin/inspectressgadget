@@ -41,7 +41,7 @@
 }
 
 #subbscribe a {
-    text-decoration: underline
+    text-decoration: none
 }
 
 #subbscribe .subbscribe-alert {
@@ -363,27 +363,32 @@ h1 {
 
 h2 {
     margin: 2rem 0;
-    font-size: 1.7rem
+    font-size: 1.7rem;
+    line-height: normal;
 }
 
 h3 {
     margin: 1.6rem 0;
-    font-size: 1.445rem
+    font-size: 1.445rem;
+    line-height: normal;
 }
 
 h4 {
     margin: 1.28rem 0;
-    font-size: 1.22825rem
+    font-size: 1.22825rem;
+    line-height: normal;
 }
 
 h5 {
     margin: 1.024rem 0;
-    font-size: 1.04401rem
+    font-size: 1.04401rem;
+    line-height: normal;
 }
 
 h6 {
     margin: .8192rem 0;
-    font-size: .88741rem
+    font-size: .88741rem;
+    line-height: normal;
 }
 
 p {
@@ -4142,7 +4147,7 @@ body.page-browser-compatibility .error-body {
 .post-content a {
     -webkit-transition: all .5s;
     transition: all .5s;
-    text-decoration: underline
+    text-decoration: none
 }
 
 .post-content a::after {
