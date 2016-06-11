@@ -4787,5 +4787,5 @@ pre[class*=language-] {
 }
 
 .post-image-container > div img {
-    width: 100%;
+    max-width: 100%;
 }
